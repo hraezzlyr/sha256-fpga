@@ -1,0 +1,11 @@
+# VS Code files
+.vscode
+
+# TersoHDL files
+vhdl_ls.toml
+
+# Python venv
+.venv
+
+# Build dir
+build
