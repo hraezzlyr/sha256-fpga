@@ -14,13 +14,13 @@ low-level security. The main features are:
 ## 🛠️ Toolchain
 - Language: `VHDL-2008`
 - Simulator: `GHDL 4.1.0`
-- Waveform viewer: `Surfer`
+- Waveform viewer: `GTKWave`
 - Build system: `Make`
 - Verification framework: `VUnit`
 
 ## ✅️ Verification
 I use `GHDL` to compile a VHDL code. It allows me to display the results of
-its work as time-series plots in `Surfer`. `VUnit` is used as a verification
+its work as time-series plots in `GTKWave`. `VUnit` is used as a verification
 framework to test automation, including organizing, running, and
 receiving results. To see a more detailed test strategy, take a look at the
 */docs/verification.md* file.
@@ -30,7 +30,7 @@ receiving results. To see a more detailed test strategy, take a look at the
 | :---: | :---: |
 | Message padder | implemented |
 | Message padder testbenches | implemented |
-| Message scheduler | planned |
+| Message scheduler | in progress |
 | Message scheduler testbenches | planned |
 | Compression engine | planned |
 | Compression engine testbenches | planned |
@@ -49,6 +49,8 @@ docs/
 - *docs/verification.md* - detailed testing strategy
 - *docs/modules/padder.md* - padder's architecure, supported cases,
 design decisions
+
+They are not pushed. I work on it.
 
 
 ## 🏗️ Building
